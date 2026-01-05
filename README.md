@@ -1,4 +1,4 @@
-# 🚀 Sistema de Rotas React - Atividade Prática
+# 🚀 React: Rotas e Componentes
 
 Um projeto completo demonstrando o uso de React Router DOM com lazy loading, rotas dinâmicas e componentes otimizados para performance.
 
