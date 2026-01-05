@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{
+    min-height: calc(100vh - 70px - 70px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Notfound{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.Notfound img{
+    width: 250px;
+    height: auto;
+}

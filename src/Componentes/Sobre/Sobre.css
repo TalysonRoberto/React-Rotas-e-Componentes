@@ -1,0 +1,62 @@
+.sobre{
+    display: grid;
+    justify-items: center;
+}
+
+.sobre .info{
+    padding: 10px;
+    width: 730px;
+    margin-bottom: -100px;
+}
+
+.sobre ul li{
+    list-style-type: none;
+}
+
+.sobre ul li a{
+    text-decoration: none;
+    font-size: 18px;
+    display: grid;
+    justify-items: center;
+    gap: 10px;
+    color:  rgb(4, 91, 112);
+}
+
+.sobre ul{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.sobre ul li div{
+    background-color: rgb(209, 209, 209);
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.perfil div{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: rgb(209, 209, 209);
+}
+
+.perfil{
+    display: grid;
+    gap: 10px;
+    justify-items: center;
+}
+
+.equipe{
+    display: flex;
+    gap: 30px;
+}
+
+.equipe img{
+    height: 300px;
+}
+
+.equipe .descricao{
+    width: 600px;
+}

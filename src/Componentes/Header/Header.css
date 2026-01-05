@@ -1,0 +1,36 @@
+header{
+    display: flex;
+    padding: 10px 40px;
+    height: 70px;
+    background-color: rgb(4, 91, 112);
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav img{
+    padding: 5px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
